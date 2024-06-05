@@ -9,7 +9,7 @@ function StickyPage(props) {
                 <div className="sticky-about">
                     <img src={props.img} alt="" />
                     <hr />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quibusdam laudantium perspiciatis deserunt repellendus, commodi voluptatem nemo, aliquid architecto ab accusamus dolores, illo quae cumque.</p>
+                    <p>{props.desc}</p>
                 </div>
             </div>
             

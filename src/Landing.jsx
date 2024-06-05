@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const Landing = () => {
     const { scrollY } = useScroll();
-    const lastNumber = window.innerWidth < 984 ? 150 : 50;
+    const lastNumber = window.innerWidth < 984 ? 150 : 60;
     const mappedValue = useTransform(scrollY, [0, 888], [1, lastNumber]);
 
     const [disY, setDisY] = useState(0);

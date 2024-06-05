@@ -4,7 +4,8 @@ import Paralax from './Paralax.jsx'
 import About from './About.jsx'
 import Overlap from './Overlap.jsx'
 import StickyPage2 from './StickyPage2.jsx'
-
+import Last from './Last.jsx'
+import Footer from './Footer.jsx'
 function App() {
   
 
@@ -15,6 +16,8 @@ function App() {
       <Paralax />
       <Overlap />
       <StickyPage2 />
+      <Last />
+      <Footer />
       {/* <About /> */}
     </>
   )
